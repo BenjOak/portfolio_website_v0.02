@@ -1,0 +1,47 @@
+    /* adding styling to make the canvas fill the window and remove scrollbars 
+    https://github.com/processing/p5.js/wiki/Positioning-your-canvas
+    html, body{
+        height: 100%;
+      }
+      
+      body {
+          margin: 0;
+          display: flex;
+      
+          justify-content: center;
+          align-items: center;
+      } */
+
+/* styling for the whole website */
+body {
+    width: 100%;
+}
+
+.header {
+    display: inline-block;
+}
+
+/*styling for the title of the website*/
+.title {
+    display: block;
+    margin-left: 45%;
+    font-style: oblique;
+}
+
+.watson {
+    margin-top: -25px;
+}
+
+.tabs {
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    float: right;
+    margin-right: 10%;
+}
+
+.header-line {
+    width: 90%;
+    margin-top: -10px;
+}
+

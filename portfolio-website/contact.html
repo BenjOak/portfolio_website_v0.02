@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Bennie Watson - Contact</title>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="contact-styles.css"/>
         <script src="./lib/libraries/p5.min.js"></script>
         <script src="./lib/libraries/p5.sound.min.js"></script>
     </head>
@@ -12,18 +13,26 @@
         <main>
             <div>
                 <div class="title">
-                    <!-- <h1 class="bennie">Bennie -->
                         <div class="tabs">
                             <a class="home" href="./index.html">home</a>
                             <a class="about" href="./about.html">about</a>
                             <a class="contact" href="./contact.html">contact</a>
                         </div>
-                    </h1>
-                    <!-- <h1 class="watson">Watson</h1> -->
                     <a href="./index.html"> <img class="benWat" src="assets/Bennie Watson Name.png"  /> </a>
                 </div>
             </div>
             <hr class="header-line">
+            <form action="send-email.php">
+                <!-- method="post" enctype="text/plain" -->
+                <div class="contactSection">
+                    <label for="name">Name <input type="text" name="name" id="name" required/></label><br>
+                    <label for="email">Email <input type="email" name="email" id="email" required/></label><br>
+                    <label for="subject">Email subject <input type="text" name="subject" id="subject" required/> </label> <br>
+                    <label for="message">Message for Bennie <textarea type=text name="message" id="message" required> Hi Bennie, would you like a job?</textarea></label><br>
+                    <input type="submit" value="send"/>
+
+                </div>
+            </form>
         </main>
     </body>
 </html>

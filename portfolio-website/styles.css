@@ -61,15 +61,29 @@ a {
     margin-top: 1.5%;
 }
 
-/* thumbnails */
-.topProjects {
-    display: inline-block;
+/* little auto-biography for the title page */
+.bio {
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    font-style: normal;
 }
 
-.aQaCC, .aQaCC2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:250px;
-    align-self: center;
+/* thumbnails */
+.thumbnail {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+.topProjects, .midProjects {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.topProjects::after, .midProjects::after {
+    content: "";
+    clear: both;
+    display: table;
 }

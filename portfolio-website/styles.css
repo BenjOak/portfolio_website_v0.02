@@ -1,17 +1,3 @@
-    /* adding styling to make the canvas fill the window and remove scrollbars 
-    https://github.com/processing/p5.js/wiki/Positioning-your-canvas
-    html, body{
-        height: 100%;
-      }
-      
-      body {
-          margin: 0;
-          display: flex;
-      
-          justify-content: center;
-          align-items: center;
-      } */
-
 /* styling for the whole website */
 body {
     width: 100%;
@@ -28,9 +14,11 @@ body {
     font-style: oblique;
 }
 
-/* .watson {
-    margin-top: -25px;
-} */
+/* Title */
+.benWat {
+    max-width: 120px;
+    margin-top: 1.5%;
+}
 
 .tabs {
     margin-top: 20px;
@@ -42,7 +30,6 @@ body {
 
 .header-line {
     width: 90%;
-    /* margin-top: -10px; */
 }
 
 a {
@@ -55,13 +42,7 @@ a {
     background-color: aquamarine;
 }
 
-/* Title */
-.benWat {
-    max-width: 120px;
-    margin-top: 1.5%;
-}
-
-/* little auto-biography for the title page */
+/* little auto-biography for the home page */
 .bio {
     margin-right: 20%;
     margin-left: 20%;
@@ -72,6 +53,7 @@ a {
 /* thumbnails */
 .thumbnail {
     box-sizing: border-box;
+    align-content: center;
     float: left;
     width: 50%;
 }

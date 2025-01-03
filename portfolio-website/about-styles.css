@@ -1,0 +1,26 @@
+.pronouns {
+    margin-top: 1px;
+    font-style:oblique
+}
+
+.aboutSection {
+    display: flex;
+    align-items: center;
+}
+
+.aboutPhotos {
+    max-width: 250px;
+    margin-left: 5%;
+}
+
+.biography {
+    margin-right: 5%;
+}
+
+.linkedIn {
+    background-color: beige;
+}
+
+.linkedIn:hover {
+    background-color: aquamarine;
+}

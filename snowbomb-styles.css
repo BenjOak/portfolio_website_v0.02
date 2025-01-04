@@ -1,0 +1,21 @@
+.snowbombSection {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.snowbombGame {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.snowbombGame:hover {
+    opacity: 1;
+}
+
+.clickMe {
+    font-style: oblique;
+}

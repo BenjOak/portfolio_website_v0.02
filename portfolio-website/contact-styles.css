@@ -8,3 +8,20 @@
     margin-right: auto;
     max-width: 500px;
 }
+
+.contactEmail {
+    display: inline-block;
+}
+
+article {
+    margin-left: 3px;
+    background-color:beige;
+}
+
+.LinkedInLink {
+    background-color: beige;
+}
+
+.LinkedInLink:hover {
+    background-color: aquamarine;
+}

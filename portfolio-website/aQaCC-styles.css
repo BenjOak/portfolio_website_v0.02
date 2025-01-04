@@ -1,0 +1,14 @@
+.aQaCCText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.aQaCCLink {
+    background-color: beige;
+}
+
+.aQaCCLink:hover {
+    background-color: aquamarine;
+}
